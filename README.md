@@ -10,4 +10,4 @@ Features added not from that of the Original Mummy Maze:
 - Solver [WIP] - implemented using a recursive function
   
 Plan to add:
-- A sort of other gamemode which makes Maze Making more easier
+- A sort of other gamemode which makes Maze Making easier
