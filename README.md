@@ -6,7 +6,7 @@ Unadded Features of the Original Mummy Maze:
 - The built-in levels
   
 Features added not from that of the Original Mummy Maze:
-- Custom Maze Making - in gameattr.py
+- Custom Maze Making - in game_attr.py
 - Solver [WIP] - implemented using a recursive function
   
 Plan to add:
