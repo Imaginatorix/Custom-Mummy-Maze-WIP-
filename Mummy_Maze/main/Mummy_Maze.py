@@ -616,7 +616,7 @@ class Game():
                 elif event.key == pygame.K_ESCAPE:
                     # print (self.constraints)
                     screen = Tk().wm_withdraw() #to hide the main window
-                    messagebox.showinfo("Showing Solution","Keep in mind that this feature is still in progress\nPress OK to continue...")
+                    messagebox.showinfo("Showing Solution","This feature is still unpolished, but it works\nPress OK to continue...")
 
                     self.solve_maze(self.player.coords, self.all_enemies, 0)
                     # check all solutions
@@ -1026,17 +1026,16 @@ class Game():
             all_moves.remove("bottom")
 
         # other obstacles
-        for move in all_moves:
+        all_moves_2loop = all_moves[:]
+        for move in all_moves_2loop:
             if move != "idle":
-                # I don't know why but this sometimes fails, causing some moves to phase through obstacles
-                if current_coords in self.constraints[move]:
+                if current_coords in set(self.constraints[move]):
                     all_moves.remove(move)
 
-        # print (f"Possible Moves: {all_moves}")
         return all_moves
 
     def solve_maze(self, player_coords, enemies, depth, prev_situations = None):
-        # tree-based algorithm --- based on the minimax algorithm, a costumized variation
+        # tree-based algorithm --- based on the minimax algorithm, a customized variation
 
         if prev_situations is None:
             prev_situations = []
@@ -1118,7 +1117,7 @@ class Game():
             self.path.pop(depth)
 
             # print (self.path)
-            # # print (self.solutions)
+            # print (self.solutions)
             # print ()
 
         return best_score
