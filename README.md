@@ -7,7 +7,7 @@ Unadded Features of the Original Mummy Maze:
   
 Features added not from that of the Original Mummy Maze:
 - Custom Maze Making - in game_attr.py
-- Solver [WIP] - implemented using a recursive function
+- Solver [Unpolished] - implemented using a recursive function (occasionally makes useless moves, like, although not always useless, [left, left, right, right])
   
 Plan to add:
 - A sort of other gamemode which makes Maze Making easier
