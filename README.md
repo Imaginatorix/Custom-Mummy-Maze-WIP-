@@ -12,3 +12,6 @@ Features added not from that of the Original Mummy Maze:
   
 Plan to add:
 - A sort of other gamemode which makes Maze Making easier
+
+Preview:
+![GIF preview](./mummy-maze-preview.mp4)
