@@ -14,4 +14,4 @@ Plan to add:
 - A sort of other gamemode which makes Maze Making easier
 
 ### Preview:
-![MP4 Preview](https://github.com/Imaginatorix/Custom-Mummy-Maze/assets/77674519/cfb3895a-bc9c-4bb2-b9d5-14c1e527f6ab)
+<video src='https://github.com/Imaginatorix/Custom-Mummy-Maze/assets/77674519/cfb3895a-bc9c-4bb2-b9d5-14c1e527f6ab)https://github.com/Imaginatorix/Custom-Mummy-Maze/assets/77674519/cfb3895a-bc9c-4bb2-b9d5-14c1e527f6ab' width=180/>
